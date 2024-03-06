@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+#welcome{
+    background: url(../img/maincoffman-1872.jpg)center center/cover no-repeat  ;
+
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.btn-main-color{
+    background-color: rgb(218, 132, 27) !important;
+    border-color: rgb(221, 127, 12) !important;
+    color: #1e690c !important;
+    &:hover{
+        background-color: rgb(167, 162, 156) !important;
+        border-color: rgb(245, 245, 245) !important;
+        color: #fff !important;
+    }
+}
+
+#about,#info{
+    ul{
+        a{
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            color: black;
+            margin: ;
+        }
+        i{
+            border:0.5px solid #704f1d !important;
+            border-radius: 50% !important;
+            color: #744f18 !important;
+            padding: 10px;
+            margin-right:  15px;
+            margin-bottom: 5px;
+            
+        }
+    }
+}
+.foot-bag{
+    background-color: rgb(65, 61, 56);
+}
+
+#foot{
+    a{
+        text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            color: rgb(112, 112, 112);
+            /* border-bottom: 1px black solid; */
+            font-size: 20px;
+    }
+    h4{
+        color: rgb(253, 253, 253);
+    }
+    p{
+        color: dimgray;
+        /* border-bottom: 1px black solid; */
+        font-size: 20px;
+    }
+    .foot2{
+        
+        i{
+            background-color: rgb(53, 51, 48);
+            border-radius: 50% !important;
+            color: #d1d1d0 !important;
+            padding: 15px; 
+            transition: all 0.5s ease-in-out;
+        }
+
+    }
+}
+#foot .iconz .icona:hover{
+        background-color: blue !important;
+        border:1px solid #0104b9 !important;
+        color: #0104b9;
+    
+}
+#foot .iconz .iconb:hover{
+    background-color: rgb(2, 111, 184) !important;
+    border:1px solid rgb(2, 111, 184)  !important;
+    color: rgb(2, 111, 184) ;
+
+}
+#foot .iconz .iconc:hover{
+    background-color: rgb(204, 70, 29) !important;
+    border:1px solid rgb(204, 70, 29)!important;
+    color: rgb(204, 70, 29);
+
+}
+#foot .iconz .icond:hover{
+    background-color: rgb(32, 32, 58) !important;
+    border:1px solid rgb(32, 32, 58) !important;
+    color: rgb(32, 32, 58);
+
+}
+
+
+
